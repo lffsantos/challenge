@@ -33,7 +33,8 @@ def array_nested_to_flat(nested_array):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Convert Nested array in flat array')
-    parser.add_argument('-a', '--array', default='[1, [2]]', help='Nested Array')
+    parser.add_argument('-a', '--array', default='[1, [2]]', help='Nested Array '
+                                                                  'e.g: "[1, [2]]"')
     args = parser.parse_args()
     try:
         nested_array = json.loads(args.array)
