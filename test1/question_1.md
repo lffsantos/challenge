@@ -1,5 +1,5 @@
-Development of the Data Management Platform (DMP) platform. A platform for Management.
-What made me most proud of this project was the fact that I was starting with Python and Django development and being able to develop a platform of extreme value for the customer. With this platform, the customer had an overview of its users and was thus able to create better marketing strategies.
-It was the end product for our client, so knowing that he was using the product developed by you and this passing the positive feedback is very rewarding.
-Thinking from the user side, it's great to know that your work impacts millions of peoples,  when a user entered our client's site, he was impacted directly by our work, seeing advertising specific to it, and to impact people's lives is priceless.
+Development of the Data Management Platform (DMP) platform. A platform for Management.  
+What made me most proud of this project was the fact that I was starting with Python and Django development and being able to develop a platform of extreme value for the customer. With this platform, the customer had an overview of its users and was thus able to create better marketing strategies.  
+It was the end product for our client, so knowing that he was using the product developed by you and this passing the positive feedback is very rewarding.  
+Thinking from the user side, it's great to know that your work impacts millions of peoples,  when a user entered our client's site, he was impacted directly by our work, seeing advertising specific to it, and to impact people's lives is priceless.  
 The insights I took, was the issue that technology isn't the most important, the main is to meet customer expectations. During the project, I researched several technologies because I see them technology as a means and not an end.
