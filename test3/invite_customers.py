@@ -53,8 +53,11 @@ class InviteCustomers():
                 ))
         self.limit_distance = limit_distance
 
-    def load_customers(self, file_name='customers.json'):
+    def load_customers(self, file_name):
         customers_near_the_office = {}
+        if not file_name:
+            raise ValueError('File Name can not be None')
+
         if not os.path.isfile(file_name):
             raise FileNotFoundError('No such file or directory: {}'.format(file_name))
 

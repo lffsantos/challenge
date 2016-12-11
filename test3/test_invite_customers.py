@@ -48,13 +48,14 @@ class TestInviteCustomers():
             12: 'Christina McArdle',
         }),
         ("customers_test1.json", FileNotFoundError),
+        (None, ValueError),
         ("customers_invalid_test.json", KeyError)
     ])
     def test_load_customers(self, file_name, expected_customers):
-        path_file_name = os.path.abspath(
+        path_file_name = file_name if not file_name else os.path.abspath(
             os.path.join(os.path.dirname(__file__), file_name)
         )
-        if expected_customers in [FileNotFoundError, KeyError]:
+        if expected_customers in [FileNotFoundError, KeyError, ValueError]:
             with pytest.raises(expected_customers):
                 self.invite.load_customers(file_name=path_file_name)
         else:
