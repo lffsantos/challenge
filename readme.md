@@ -11,12 +11,12 @@ pip install -r requirements.txt
 py.test
 ```
 
-Execute Test2:
+Execute Prog2:
 
 > cd challenge  
-> python test2/convert_array_nested_to_flat.py  
+> python prog2/convert_array_nested_to_flat.py    
 
-Execute Test3
+Execute Prog3
 
 > cd challenge  
-> python test3/invite_customers.py  
+> python prog3/invite_customers.py    

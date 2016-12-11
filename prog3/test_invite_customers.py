@@ -1,7 +1,7 @@
 import os
 import pytest
 
-from test3.invite_customers import degrees_to_radians, InviteCustomers
+from prog3.invite_customers import degrees_to_radians, InviteCustomers
 
 
 @pytest.mark.parametrize('coordinate_degree, coordinate_rad', [

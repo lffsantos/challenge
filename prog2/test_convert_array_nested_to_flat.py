@@ -1,6 +1,6 @@
 import pytest
 
-from test2.convert_array_nested_to_flat import array_nested_to_flat, exception_type_value
+from prog2.convert_array_nested_to_flat import array_nested_to_flat, exception_type_value
 
 
 @pytest.mark.parametrize('nested_array, expected', [
